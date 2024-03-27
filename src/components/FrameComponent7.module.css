@@ -1,0 +1,583 @@
+.backgroundChild {
+  width: 50.722rem;
+  height: 24.444rem;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-500);
+  backdrop-filter: blur(120px);
+  display: none;
+  max-width: 100%;
+}
+.ageToGames {
+  margin: 0;
+  width: 33.278rem;
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.p {
+  margin: 0;
+}
+.b {
+  position: relative;
+  line-height: 150%;
+  z-index: 1;
+}
+.b1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  z-index: 1;
+}
+.b2 {
+  width: 0.922rem;
+  height: 1.006rem;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.b4 {
+  height: 1.006rem;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  z-index: 1;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-5xs) 0rem 0.178rem;
+}
+.b5 {
+  height: 1.006rem;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 0.389rem;
+  z-index: 1;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-10xs);
+}
+.parent {
+  width: 1.511rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2.341rem;
+}
+.frameChild {
+  align-self: stretch;
+  height: 0.056rem;
+  position: relative;
+  border-top: 1px dashed var(--color-midnightblue);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.linesIcon {
+  width: 100%;
+  height: 16.717rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 0rem;
+  right: 0rem;
+  left: 0rem;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.lineParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 3.291rem;
+}
+.frameDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0rem 0rem 0.45rem;
+  box-sizing: border-box;
+  min-width: 29.667rem;
+  max-width: 100%;
+}
+.frameContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0.717rem;
+  max-width: 100%;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0rem 0.617rem 0rem 0rem;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cricket {
+  align-self: stretch;
+  position: relative;
+  line-height: 1rem;
+  z-index: 1;
+}
+.cricketWrapper {
+  width: 3.611rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-2xs) 0rem 0rem;
+  box-sizing: border-box;
+}
+.football {
+  position: relative;
+  line-height: 1rem;
+  display: inline-block;
+  min-width: 2.278rem;
+  z-index: 1;
+}
+.footballWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-5xl) 0rem 0rem;
+}
+.basketballWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-10xs) 0rem 0rem;
+}
+.tennisWrapper {
+  width: 3.611rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-mid) 0rem 0rem;
+  box-sizing: border-box;
+}
+.badminton {
+  position: relative;
+  line-height: 1rem;
+  display: inline-block;
+  min-width: 3.222rem;
+  z-index: 1;
+}
+.badmintonWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-4xs) 0rem 0rem;
+}
+.cyclingWrapper {
+  width: 3.611rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-smi) 0rem 0rem;
+  box-sizing: border-box;
+}
+.archeryWrapper {
+  width: 3.444rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-6xs) 0rem 0rem;
+  box-sizing: border-box;
+}
+.gymnastics {
+  position: relative;
+  line-height: 1rem;
+  display: inline-block;
+  min-width: 3.5rem;
+  z-index: 1;
+}
+.wrestling {
+  flex: 1;
+  position: relative;
+  line-height: 1rem;
+  z-index: 1;
+}
+.gymnasticsParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  min-width: 5.111rem;
+}
+.carromWrapper {
+  width: 3.556rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-base) 0rem 0rem;
+  box-sizing: border-box;
+}
+.swimming {
+  position: relative;
+  line-height: 1rem;
+  display: inline-block;
+  min-width: 3.389rem;
+  z-index: 1;
+}
+.chess {
+  position: relative;
+  line-height: 1rem;
+  display: inline-block;
+  min-width: 1.778rem;
+  z-index: 1;
+}
+.swimmingParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameParent1 {
+  width: 46.222rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 1.106rem;
+  max-width: 100%;
+  font-size: var(--font-size-3xs);
+  color: var(--gray-gray-300);
+}
+.background {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-500);
+  backdrop-filter: blur(120px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.844rem var(--padding-5xs-5) 0.994rem 1.85rem;
+  box-sizing: border-box;
+  gap: 0.272rem;
+  max-width: 100%;
+}
+.backgroundWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0rem 0rem var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.title {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.progressBarIcon {
+  width: calc(100% - 3.4px);
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0rem;
+  right: 0.189rem;
+  bottom: 0rem;
+  left: 0rem;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon {
+  height: 2.667rem;
+  width: 2.667rem;
+  position: relative;
+  z-index: 1;
+}
+.iconWrapper {
+  height: 2.667rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-33xl) 0rem var(--padding-32xl);
+  box-sizing: border-box;
+}
+.cricket1 {
+  margin: 0;
+  height: 3rem;
+  position: relative;
+  font-size: inherit;
+  line-height: 100%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.progressBarParent {
+  align-self: stretch;
+  height: 16.089rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-10xl) var(--padding-53xl) 1.6rem 3.878rem;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-50xl);
+}
+.div {
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  min-width: 1rem;
+}
+.b6 {
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  min-width: 3.389rem;
+}
+.div1 {
+  position: relative;
+  font-size: var(--product-size);
+  line-height: 100%;
+  color: var(--gray-gray-400);
+  display: inline-block;
+  min-width: 1.722rem;
+}
+.group {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem 0rem 0rem var(--padding-6xs);
+}
+.basedOnLikes {
+  position: relative;
+  font-size: var(--product-size);
+  line-height: 100%;
+  color: var(--gray-gray-400);
+  display: inline-block;
+  min-width: 4.556rem;
+}
+.frameParent3 {
+  width: 9.222rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-9xl);
+  color: var(--secondary-primary-white);
+}
+.content {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    126.97deg,
+    rgba(6, 11, 40, 0.74),
+    rgba(9, 14, 35, 0.71)
+  );
+  backdrop-filter: blur(120px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-mid) var(--padding-lgi) var(--padding-xl)
+    var(--padding-6xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+  margin-top: -20.8px;
+  font-size: var(--product-size);
+  color: var(--gray-gray-400);
+}
+.frameParent2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mediumSatisfactionInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-18xl) 0rem var(--padding-21xl);
+  font-size: var(--font-size-21xl);
+}
+.mediumSatisfaction {
+  width: 23.556rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-400);
+  backdrop-filter: blur(120px);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-8xl) var(--padding-11xl);
+  box-sizing: border-box;
+  gap: 0.233rem;
+  min-width: 23.556rem;
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0rem 0rem var(--padding-mini);
+  box-sizing: border-box;
+  gap: var(--gap-20xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--secondary-primary-white);
+  font-family: var(--product);
+}
+
+@media screen and (max-width: 1200px) {
+  .mediumSatisfaction {
+    flex: 1;
+  }
+
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ageToGames {
+    font-size: var(--font-size-5xl);
+    line-height: 2rem;
+  }
+
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+
+  .frameParent1 {
+    flex-wrap: wrap;
+  }
+
+  .cricket1 {
+    font-size: var(--font-size-13xl);
+    line-height: 1.778rem;
+  }
+}
+@media screen and (max-width: 675px) {
+  .frameDiv {
+    min-width: 100%;
+  }
+
+  .backgroundWrapper {
+    min-width: 100%;
+  }
+
+  .mediumSatisfaction {
+    min-width: 100%;
+  }
+
+  .frameParent {
+    gap: 2.167rem 1.056rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ageToGames {
+    font-size: var(--font-size-lg);
+    line-height: 1.5rem;
+  }
+
+  .lineParent {
+    gap: 1.667rem 3.289rem;
+  }
+
+  .cricket1 {
+    font-size: var(--font-size-5xl);
+    line-height: 1.333rem;
+  }
+
+  .progressBarParent {
+    gap: 1.889rem 3.833rem;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .b6 {
+    font-size: var(--font-size-3xl);
+    line-height: 1.222rem;
+  }
+
+  .group {
+    flex-wrap: wrap;
+  }
+
+  .mediumSatisfaction {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,82 @@
+.frameChild {
+  border: none;
+  background-color: transparent;
+  width: 26.278rem;
+  height: 2.333rem;
+  font-family: var(--font-jura);
+  font-size: var(--font-size-11xl);
+  color: var(--secondary-primary-white);
+  max-width: 100%;
+}
+.confirmPassword {
+  width: 17rem;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.frameItem {
+  align-self: stretch;
+  height: 0.111rem;
+  position: relative;
+  border-top: 2px solid var(--secondary-primary-white);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.confirmPasswordParent {
+  width: 26.278rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-xl) var(--padding-8xs) 0rem;
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.alreadyHaveAn {
+  color: var(--color-darkorange);
+}
+.span {
+  color: var(--color-orangered);
+}
+.login {
+  text-decoration: underline;
+}
+.alreadyHaveAnContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-46xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--secondary-primary-white);
+  font-family: var(--font-jura);
+}
+
+@media screen and (max-width: 750px) {
+  .confirmPassword {
+    font-size: var(--font-size-5xl);
+  }
+
+  .alreadyHaveAnContainer {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .confirmPassword {
+    font-size: var(--font-size-lg);
+  }
+
+  .alreadyHaveAnContainer {
+    font-size: var(--font-size-lgi);
+  }
+}

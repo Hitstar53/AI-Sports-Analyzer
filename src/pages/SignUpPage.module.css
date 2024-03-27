@@ -1,0 +1,122 @@
+.signupPageChild {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #120724 0deg,
+    #640404 360deg
+  );
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.signUpPage {
+  position: absolute;
+  top: 24.556rem;
+  left: 11.444rem;
+  border-top: 2px solid var(--secondary-primary-white);
+  box-sizing: border-box;
+  width: 25.278rem;
+  height: 0.111rem;
+  z-index: 1;
+}
+.signupPageItem {
+  position: absolute;
+  top: 11.5rem;
+  left: 41.389rem;
+  width: 10.111rem;
+  height: 9.222rem;
+  object-fit: cover;
+  z-index: 1;
+}
+.email {
+  position: absolute;
+  top: 22.333rem;
+  left: 11.444rem;
+  display: inline-block;
+  width: 12.778rem;
+  height: 1.944rem;
+  z-index: 1;
+}
+.frameWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-48xl) 0rem 0rem;
+  box-sizing: border-box;
+  min-width: 18.222rem;
+  max-width: 100%;
+}
+.welcomeIAm {
+  margin: 0;
+}
+.welcomeIAmContainer {
+  height: 15.444rem;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 18.278rem;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameParent {
+  position: absolute;
+  top: 24.556rem;
+  left: 11.444rem;
+  width: 60.333rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-56xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--secondary-primary-white);
+  font-family: var(--font-jura);
+}
+.signupPage {
+  width: 100%;
+  height: 56.889rem;
+  position: relative;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #120724 0deg,
+    #640404 360deg
+  );
+  overflow: hidden;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--secondary-primary-white);
+  font-family: var(--font-jura);
+}
+
+@media screen and (max-width: 750px) {
+  .email {
+    font-size: var(--font-size-5xl);
+  }
+
+  .welcomeIAmContainer {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .signupPage {
+    height: auto;
+    min-height: 1024;
+  }
+}
+@media screen and (max-width: 450px) {
+  .email {
+    font-size: var(--font-size-lg);
+  }
+
+  .welcomeIAmContainer {
+    font-size: var(--font-size-lgi);
+  }
+}

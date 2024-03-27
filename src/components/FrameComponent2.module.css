@@ -1,0 +1,362 @@
+.frameChild {
+  width: 76.333rem;
+  height: 41.5rem;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--secondary-primary-white);
+  display: none;
+  max-width: 100%;
+}
+.gameInsights {
+  width: 34rem;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.backgroundChild {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    126.97deg,
+    rgba(6, 11, 40, 0.74),
+    rgba(9, 14, 35, 0.71)
+  );
+  backdrop-filter: blur(120px);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.ipl2024 {
+  position: absolute;
+  top: 2rem;
+  left: 1.667rem;
+  font-size: var(--font-size-21xl);
+  line-height: 140%;
+  display: inline-block;
+  color: var(--secondary-primary-white);
+  width: 15.278rem;
+  height: 1.722rem;
+  z-index: 5;
+}
+.mean {
+  position: absolute;
+  top: 28.278rem;
+  left: 70.056rem;
+  line-height: 150%;
+  display: inline-block;
+  width: 2.444rem;
+  height: 1.056rem;
+  min-width: 2.444rem;
+  z-index: 5;
+}
+.avg {
+  position: absolute;
+  top: 28.278rem;
+  left: 64.056rem;
+  line-height: 150%;
+  display: inline-block;
+  width: 2.611rem;
+  height: 1.056rem;
+  z-index: 5;
+}
+.pbks {
+  position: absolute;
+  top: 28.278rem;
+  left: 58.167rem;
+  line-height: 150%;
+  display: inline-block;
+  width: 2.5rem;
+  height: 1.056rem;
+  z-index: 5;
+}
+.srh {
+  position: absolute;
+  top: 28.278rem;
+  left: 52.222rem;
+  line-height: 150%;
+  display: inline-block;
+  width: 3rem;
+  height: 1.056rem;
+  z-index: 5;
+}
+.lsg {
+  position: absolute;
+  top: 28.278rem;
+  left: 46.167rem;
+  line-height: 150%;
+  display: inline-block;
+  width: 3.278rem;
+  height: 1.056rem;
+  z-index: 5;
+}
+.gt {
+  position: absolute;
+  top: 28.278rem;
+  left: 40.556rem;
+  line-height: 150%;
+  display: inline-block;
+  width: 3rem;
+  height: 1.056rem;
+  z-index: 5;
+}
+.rr {
+  position: absolute;
+  top: 28.256rem;
+  left: 34.606rem;
+  line-height: 150%;
+  display: inline-block;
+  width: 1.422rem;
+  height: 1.056rem;
+  z-index: 5;
+}
+.mi {
+  position: absolute;
+  top: 28.256rem;
+  left: 28.561rem;
+  line-height: 150%;
+  display: inline-block;
+  width: 1.539rem;
+  height: 1.056rem;
+  z-index: 5;
+}
+.dc {
+  position: absolute;
+  top: 28.256rem;
+  left: 22.672rem;
+  line-height: 150%;
+  display: inline-block;
+  width: 1.383rem;
+  height: 1.056rem;
+  min-width: 1.383rem;
+  z-index: 5;
+}
+.kkr {
+  position: absolute;
+  top: 28.278rem;
+  left: 16.722rem;
+  line-height: 150%;
+  display: inline-block;
+  width: 3.278rem;
+  height: 1.056rem;
+  z-index: 5;
+}
+.rcb {
+  position: absolute;
+  top: 28.278rem;
+  left: 10.833rem;
+  line-height: 150%;
+  display: inline-block;
+  width: 3.111rem;
+  height: 1.056rem;
+  z-index: 5;
+}
+.csk {
+  position: absolute;
+  top: 28.278rem;
+  left: 4.944rem;
+  line-height: 150%;
+  display: inline-block;
+  width: 3.722rem;
+  height: 1.056rem;
+  z-index: 5;
+}
+.avgPB {
+  position: absolute;
+  top: 26rem;
+  left: 1.722rem;
+  font-size: var(--font-size-xl);
+  line-height: 150%;
+  display: inline-block;
+  width: 0.472rem;
+  height: 1.056rem;
+  min-width: 0.472rem;
+  z-index: 5;
+}
+.avgPB1 {
+  position: absolute;
+  top: 22.517rem;
+  left: 1.7rem;
+  font-size: var(--font-size-xl);
+  line-height: 150%;
+  display: inline-block;
+  width: 1.344rem;
+  height: 1.056rem;
+  z-index: 5;
+}
+.avgPB2 {
+  position: absolute;
+  top: 18.989rem;
+  left: 1.7rem;
+  font-size: var(--font-size-xl);
+  line-height: 150%;
+  display: inline-block;
+  width: 1.344rem;
+  height: 1.056rem;
+  z-index: 5;
+}
+.avgPB3 {
+  position: absolute;
+  top: 15.467rem;
+  left: 1.7rem;
+  font-size: var(--font-size-xl);
+  line-height: 150%;
+  display: inline-block;
+  width: 1.344rem;
+  height: 1.056rem;
+  z-index: 5;
+}
+.avgPB4 {
+  position: absolute;
+  top: 11.944rem;
+  left: 1.7rem;
+  font-size: var(--font-size-xl);
+  line-height: 150%;
+  display: inline-block;
+  width: 1.344rem;
+  height: 1.056rem;
+  z-index: 5;
+}
+.avgPB5 {
+  position: absolute;
+  top: 8.422rem;
+  left: 1.7rem;
+  font-size: var(--font-size-xl);
+  line-height: 150%;
+  display: inline-block;
+  width: 1.344rem;
+  height: 1.056rem;
+  min-width: 1.344rem;
+  z-index: 5;
+}
+.linesIcon {
+  position: absolute;
+  top: 8.95rem;
+  left: 4.939rem;
+  width: 66.361rem;
+  height: 17.6rem;
+  z-index: 6;
+}
+.background2 {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    126.97deg,
+    rgba(6, 11, 40, 0.74),
+    rgba(9, 14, 35, 0.71)
+  );
+  backdrop-filter: blur(120px);
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+.background1 {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    126.97deg,
+    rgba(6, 11, 40, 0.74),
+    rgba(9, 14, 35, 0.71)
+  );
+  backdrop-filter: blur(120px);
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.background {
+  align-self: stretch;
+  height: 31.361rem;
+  position: relative;
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    126.97deg,
+    rgba(6, 11, 40, 0.74),
+    rgba(9, 14, 35, 0.71)
+  );
+  backdrop-filter: blur(120px);
+  z-index: 2;
+  font-size: var(--font-size-mini);
+  color: var(--gray-gray-300);
+  font-family: var(--product);
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--secondary-primary-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xl) var(--padding-10xl) var(--padding-49xl-5);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-khula);
+}
+
+@media screen and (max-width: 675px) {
+  .gameInsights {
+    font-size: var(--font-size-11xl);
+  }
+
+  .ipl2024 {
+    font-size: var(--font-size-5xl);
+    line-height: 1.889rem;
+  }
+
+  .avgPB {
+    font-size: var(--font-size-base);
+    line-height: 1.333rem;
+  }
+
+  .avgPB1 {
+    font-size: var(--font-size-base);
+    line-height: 1.333rem;
+  }
+
+  .avgPB2 {
+    font-size: var(--font-size-base);
+    line-height: 1.333rem;
+  }
+
+  .avgPB3 {
+    font-size: var(--font-size-base);
+    line-height: 1.333rem;
+  }
+
+  .avgPB4 {
+    font-size: var(--font-size-base);
+    line-height: 1.333rem;
+  }
+
+  .avgPB5 {
+    font-size: var(--font-size-base);
+    line-height: 1.333rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .gameInsights {
+    font-size: var(--font-size-21xl);
+  }
+
+  .ipl2024 {
+    font-size: var(--font-size-13xl);
+    line-height: 2.5rem;
+  }
+
+  .rectangleParent {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}

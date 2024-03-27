@@ -1,0 +1,87 @@
+.frameChild {
+  height: 8.444rem;
+  width: 80rem;
+  position: relative;
+  background: linear-gradient(90deg, #120724, #8e1e1e);
+  display: none;
+  max-width: 100%;
+}
+.frameItem {
+  height: 5.167rem;
+  width: 6.5rem;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.gamesenseai {
+  height: 3.111rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.gamesenseaiWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) 0rem 0rem;
+}
+.rectangleGroup {
+  align-self: stretch;
+  width: 23.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.icbaselineMenuIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.icbaselineMenuWrapper {
+  align-self: stretch;
+  width: 4.722rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0rem 0rem;
+  box-sizing: border-box;
+}
+.rectangleParent {
+  align-self: stretch;
+  flex: 1;
+  background: linear-gradient(90deg, #120724, #8e1e1e);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-10xl) var(--padding-16xl) var(--padding-11xl)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--secondary-primary-white);
+  font-family: var(--font-kavivanar);
+}
+.newsAndGameInsightsInner {
+  align-self: stretch;
+  height: 9.167rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem 0rem var(--padding-smi);
+  box-sizing: border-box;
+  max-width: 100%;
+}

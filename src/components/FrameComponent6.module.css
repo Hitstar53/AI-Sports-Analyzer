@@ -1,0 +1,734 @@
+.title {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.progressBarIcon {
+  width: calc(100% - 3.4px);
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0rem;
+  right: 0.189rem;
+  bottom: 0rem;
+  left: 0rem;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon {
+  height: 2.667rem;
+  width: 2.667rem;
+  position: relative;
+  z-index: 1;
+}
+.circleGenerator {
+  height: 2.667rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-44xl) 0rem var(--padding-43xl);
+  box-sizing: border-box;
+}
+.archery {
+  margin: 0;
+  align-self: stretch;
+  height: 3rem;
+  position: relative;
+  font-size: inherit;
+  line-height: 100%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.colorPalette {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-10xl) var(--padding-42xl) 1.6rem 3.267rem;
+  position: relative;
+  gap: var(--gap-50xl);
+}
+.div {
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  min-width: 1rem;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-xs) 0rem 0rem;
+}
+.pathModifier {
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  min-width: 2.389rem;
+}
+.matrixTransformer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-6xs);
+}
+.basedOnLikes {
+  position: relative;
+  font-size: var(--product-size);
+  line-height: 100%;
+  color: var(--gray-gray-400);
+  display: inline-block;
+  min-width: 4.556rem;
+}
+.matrixTransformerParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-9xl);
+  color: var(--secondary-primary-white);
+}
+.div1 {
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  min-width: 1.722rem;
+}
+.content {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    126.97deg,
+    rgba(6, 11, 40, 0.74),
+    rgba(9, 14, 35, 0.71)
+  );
+  backdrop-filter: blur(120px);
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-mid) var(--padding-lgi) var(--padding-xl)
+    var(--padding-6xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+  margin-top: -20.8px;
+  font-size: var(--product-size);
+  color: var(--gray-gray-400);
+}
+.colorPaletteParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shapeContainer {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-16xl) 0rem var(--padding-20xl);
+  font-size: var(--font-size-21xl);
+}
+.mediumSatisfaction {
+  height: 25rem;
+  width: 23.389rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-400);
+  backdrop-filter: blur(120px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-8xl) var(--padding-25xl);
+  box-sizing: border-box;
+  gap: 0.233rem;
+  min-width: 23.389rem;
+  max-width: 100%;
+}
+.title1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.jan {
+  height: 1.139rem;
+  width: 2.956rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.visibilityController {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-align: center;
+  font-size: var(--product-size);
+  color: var(--gray3);
+}
+.alignmentHelper {
+  width: 20.261rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.1rem;
+  max-width: 100%;
+}
+.jun {
+  align-self: stretch;
+  height: 1.139rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 5;
+}
+.symbolInstance {
+  width: 2.956rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-131xl) 0rem 0rem;
+  box-sizing: border-box;
+}
+.div2 {
+  width: 2.956rem;
+  height: 1.139rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameChild {
+  position: absolute;
+  top: 4.806rem;
+  left: 2.267rem;
+  width: 10.528rem;
+  height: 7.083rem;
+}
+.frameItem {
+  position: absolute;
+  height: calc(100% - 6.4px);
+  top: 0.178rem;
+  bottom: 0.178rem;
+  left: 5.406rem;
+  max-height: 100%;
+  width: 8.728rem;
+  z-index: 3;
+}
+.div3 {
+  height: 1.139rem;
+  width: 2.956rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -0.639rem;
+  right: 6.55rem;
+  display: inline-block;
+}
+.frameInner {
+  height: 12.383rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 4;
+}
+.feb {
+  width: 2.956rem;
+  height: 1.139rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 5;
+}
+.may {
+  height: 1.139rem;
+  width: 2.956rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 3;
+}
+.groupIcon {
+  height: 15.956rem;
+  width: 19.856rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -14.806rem;
+  left: -14.222rem;
+  z-index: 2;
+}
+.apr {
+  height: 1.139rem;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 3;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.frameDiv {
+  width: 2.956rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.067rem 0rem 0rem;
+  box-sizing: border-box;
+}
+.mayParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0rem 3.322rem 0rem var(--padding-36xl);
+}
+.febParent {
+  width: 20.5rem;
+  margin: 0 !important;
+  position: absolute;
+  right: -2.589rem;
+  bottom: -3.644rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 1.85rem 0rem 0.011rem;
+  box-sizing: border-box;
+  gap: var(--gap-192xl-5);
+}
+.group {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.vectorParent {
+  width: 17.822rem;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0rem;
+  right: 0rem;
+  bottom: 0rem;
+  max-width: 100%;
+}
+.jul {
+  height: 1.139rem;
+  width: 2.956rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 5;
+}
+.designSystem {
+  align-self: stretch;
+  height: 1.139rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.designSystem2 {
+  align-self: stretch;
+  height: 1.139rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.styleController {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.428rem;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.shapeLibraries {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0.717rem var(--padding-99xl) 6.189rem 0rem;
+  box-sizing: border-box;
+  position: relative;
+  min-width: 12.056rem;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  margin-left: -16.7px;
+}
+.symbolInstanceParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 13.389rem;
+  max-width: 100%;
+  row-gap: 20px;
+}
+.mar {
+  align-self: stretch;
+  height: 1.139rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 3;
+}
+.functionTree {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-122xl) 0rem 0rem;
+}
+.inputHandler {
+  width: 1.939rem;
+  height: 0.572rem;
+  position: relative;
+  background-color: var(--data1);
+}
+.inputHandler1 {
+  width: 1.939rem;
+  height: 0.572rem;
+  position: relative;
+  background-color: var(--data2);
+}
+.inputHandler2 {
+  width: 1.939rem;
+  height: 0.572rem;
+  position: relative;
+  background-color: var(--data3);
+}
+.inputHandler3 {
+  width: 1.939rem;
+  height: 0.572rem;
+  position: relative;
+  background-color: var(--data4);
+}
+.decisionMaker {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.994rem;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.dataAggregator {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.2rem;
+}
+.figmaFactory {
+  width: 6.094rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.783rem 0rem 0rem;
+  box-sizing: border-box;
+}
+.rasterImage {
+  width: 28.628rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.944rem;
+  max-width: 100%;
+}
+.collisionDetector {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--product-size);
+  color: var(--gray3);
+}
+.anchorPoint {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs-5);
+  max-width: 100%;
+}
+.iconProducer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0rem 0rem;
+  box-sizing: border-box;
+  min-width: 22.667rem;
+  max-width: 100%;
+}
+.tennis {
+  align-self: stretch;
+  height: 1.211rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.cricket {
+  align-self: stretch;
+  height: 1.083rem;
+  position: relative;
+  color: var(--color-gainsboro-200);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.football {
+  align-self: stretch;
+  height: 1.211rem;
+  position: relative;
+  color: var(--color-gainsboro-100);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.basketball1 {
+  margin: 0;
+}
+.basketball {
+  align-self: stretch;
+  height: 1.211rem;
+  position: relative;
+  color: var(--color-gray-100);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.flowController {
+  width: 5.633rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.398rem;
+}
+.outputProcessor {
+  width: 9.206rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4.711rem 0rem 0rem;
+  box-sizing: border-box;
+  font-size: var(--product-size);
+  color: var(--color-whitesmoke);
+}
+.moreIcon {
+  height: 2.056rem;
+  width: 2.056rem;
+  position: relative;
+}
+.largeReferral {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-400);
+  backdrop-filter: blur(120px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-6xl) 7.183rem var(--padding-12xl);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  min-width: 33.056rem;
+  max-width: 100%;
+  font-size: var(--font-size-6xl);
+}
+.mediumSatisfactionParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-15xl);
+  max-width: 100%;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem 0rem var(--padding-smi) var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--secondary-primary-white);
+  font-family: var(--product);
+}
+
+@media screen and (max-width: 1200px) {
+  .mediumSatisfaction {
+    flex: 1;
+  }
+
+  .mediumSatisfactionParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .archery {
+    font-size: var(--font-size-13xl);
+    line-height: 1.778rem;
+  }
+
+  .largeReferral {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 675px) {
+  .mediumSatisfaction {
+    min-width: 100%;
+  }
+
+  .rasterImage {
+    flex-wrap: wrap;
+    gap: 1.944rem 0.944rem;
+  }
+
+  .iconProducer {
+    min-width: 100%;
+  }
+
+  .largeReferral {
+    min-width: 100%;
+  }
+
+  .mediumSatisfactionParent {
+    gap: 1.889rem 0.944rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .archery {
+    font-size: var(--font-size-5xl);
+    line-height: 1.333rem;
+  }
+
+  .colorPalette {
+    gap: 1.889rem 3.833rem;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .pathModifier {
+    font-size: var(--font-size-3xl);
+    line-height: 1.222rem;
+  }
+
+  .mediumSatisfaction {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+
+  .title1 {
+    font-size: var(--font-size-xl);
+    line-height: 1.556rem;
+  }
+
+  .mayParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .group {
+    height: auto;
+  }
+
+  .vectorParent {
+    height: auto;
+    min-height: 222.89999999999964;
+  }
+
+  .parent {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+    margin-left: 0;
+  }
+
+  .symbolInstanceParent {
+    flex-wrap: wrap;
+  }
+
+  .largeReferral {
+    padding-bottom: var(--padding-65xl);
+    box-sizing: border-box;
+  }
+}

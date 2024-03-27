@@ -1,0 +1,789 @@
+.cricket {
+  margin: 0;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.frameChild {
+  position: absolute;
+  top: 4.444rem;
+  left: 0.278rem;
+  width: 8.111rem;
+  height: 0.022rem;
+  object-fit: contain;
+  z-index: 2;
+}
+.cricketParent {
+  width: 13.667rem;
+  height: 5.389rem;
+  position: relative;
+}
+.frameItem {
+  width: 35.944rem;
+  height: 31rem;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--secondary-primary-white);
+  display: none;
+  max-width: 100%;
+}
+.iplSeasonIs {
+  align-self: stretch;
+  position: relative;
+  z-index: 2;
+}
+.frameInner {
+  height: 7.722rem;
+  width: 33rem;
+  position: relative;
+  border-radius: var(--br-xl);
+  background: linear-gradient(90deg, #120724, #8e1e1e);
+  display: none;
+  max-width: 100%;
+}
+.cskWonThe {
+  height: 4.389rem;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+}
+.rectangleGroup {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background: linear-gradient(90deg, #120724, #8e1e1e);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-2xs) var(--padding-27xl)
+    var(--padding-lgi);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 2;
+}
+.nextMatch {
+  align-self: stretch;
+  height: 2.944rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.nextMatchWrapper {
+  width: 12.667rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0rem 0rem;
+  box-sizing: border-box;
+}
+.rectangleDiv {
+  width: 19.5rem;
+  height: 13.167rem;
+  position: relative;
+  border-radius: var(--br-xl);
+  background: linear-gradient(90deg, #120724, #8e1e1e);
+  display: none;
+  max-width: 100%;
+}
+.dcVsKkr {
+  width: 11.222rem;
+  height: 2.944rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.wankhedeStadiumMumbai {
+  margin: 0;
+}
+.march24WankhedeContainer {
+  align-self: stretch;
+  height: 8.667rem;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.rectangleContainer {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background: linear-gradient(90deg, #120724, #8e1e1e);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-2xs) 0rem var(--padding-4xl);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  min-width: 12.667rem;
+  max-width: 100%;
+  z-index: 2;
+  color: var(--secondary-primary-white);
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+  color: var(--color-black);
+}
+.frameContainer {
+  width: 33rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  max-width: 100%;
+  font-size: var(--font-size-21xl);
+  color: var(--secondary-primary-white);
+}
+.iplSeasonIsHereParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.mdiarrowDownDropIcon {
+  height: 3.889rem;
+  width: 3.889rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -0.778rem;
+  left: -3.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.viewMore {
+  height: 2.389rem;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  z-index: 3;
+}
+.mdiarrowDownDropParent {
+  width: 8.222rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0rem var(--padding-xl) 0rem var(--padding-66xl);
+  font-size: var(--font-size-11xl);
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--secondary-primary-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-base) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  max-width: 100%;
+  z-index: 1;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+}
+.frameGroup {
+  width: 35.944rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  min-width: 35.944rem;
+  max-width: 100%;
+}
+.frameChild1 {
+  width: 38.556rem;
+  height: 10.5rem;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--secondary-primary-white);
+  display: none;
+  max-width: 100%;
+}
+.lineIcon {
+  position: absolute;
+  top: 4rem;
+  left: 0rem;
+  width: 2.778rem;
+  height: 0.028rem;
+  object-fit: contain;
+  z-index: 2;
+}
+.achievements {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.lineParent {
+  margin-right: -27px;
+  width: 21.278rem;
+  height: 4.389rem;
+  position: relative;
+  max-width: 100%;
+}
+.rcbWonThe {
+  height: 2.389rem;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.rcbWonThe1 {
+  height: 2.389rem;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+  margin-left: -430px;
+}
+.rcbWonTheWpl2024Parent {
+  width: 23.889rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray-300);
+}
+.rectangleParent1 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--secondary-primary-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-smi) var(--padding-20xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+  max-width: 100%;
+  z-index: 1;
+}
+.frameChild2 {
+  width: 38.556rem;
+  height: 24.5rem;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--secondary-primary-white);
+  display: none;
+  max-width: 100%;
+}
+.scoreTable {
+  width: 14.833rem;
+  height: 2.389rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.scoreTableLabelChild {
+  width: 35.5rem;
+  height: 19.222rem;
+  position: relative;
+  border-radius: var(--br-xl);
+  background: linear-gradient(90deg, #120724, #8e1e1e);
+  display: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.team {
+  align-self: stretch;
+  height: 2.944rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.opponentName {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-xs) 0rem 0rem;
+  box-sizing: border-box;
+  min-width: 7.722rem;
+}
+.opponentName1 {
+  width: 6.611rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-7xs) 0rem 0rem;
+  box-sizing: border-box;
+}
+.lost {
+  height: 2.944rem;
+  width: 6.722rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.points {
+  height: 2.944rem;
+  width: 11.222rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.teamWon {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  max-width: 100%;
+}
+.teamName {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem 0rem 0rem var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.verticalDividerIcon {
+  width: 31.944rem;
+  height: 0.139rem;
+  position: relative;
+  object-fit: contain;
+  max-width: 100%;
+  z-index: 3;
+}
+.rcb {
+  align-self: stretch;
+  position: relative;
+  z-index: 3;
+}
+.csk {
+  align-self: stretch;
+  position: relative;
+  z-index: 4;
+}
+.rcbParent {
+  width: 9.556rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-36xl) 0rem 0rem;
+  box-sizing: border-box;
+}
+.div {
+  align-self: stretch;
+  height: 2rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.pointsScored {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.cSKLabel {
+  width: 3.889rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0rem 0rem;
+  box-sizing: border-box;
+}
+.rCBLabel {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0rem var(--padding-12xs) 0rem 0rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.achievementsLabel {
+  width: 29.722rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.teamScoreCard {
+  width: 37rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.569rem;
+  max-width: 112%;
+  flex-shrink: 0;
+}
+.dc {
+  align-self: stretch;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 5;
+}
+.kkr {
+  margin-top: -6px;
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 3;
+}
+.kKRLabel {
+  align-self: stretch;
+  height: 3.056rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem 0rem 0rem;
+  box-sizing: border-box;
+}
+.pointsColumnParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.gameStatsChild {
+  width: 3.889rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0rem 0rem;
+  box-sizing: border-box;
+}
+.gameInsightsHeader {
+  width: 29.722rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-top: -5px;
+}
+.scoreTableLabel {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background: linear-gradient(90deg, #120724, #8e1e1e);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-4xl) var(--padding-xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 2;
+  color: var(--secondary-primary-white);
+}
+.rectangleParent2 {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--secondary-primary-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-8xl) var(--padding-9xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  z-index: 1;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem 0rem 0rem var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray-300);
+}
+.frameParent1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+  min-width: 25.167rem;
+  max-width: 100%;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--secondary-primary-white);
+  font-family: var(--font-khula);
+}
+
+@media screen and (max-width: 1200px) {
+  .frameGroup {
+    flex: 1;
+  }
+
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 675px) {
+  .cricket {
+    font-size: var(--font-size-19xl);
+  }
+
+  .iplSeasonIs {
+    font-size: var(--font-size-11xl);
+  }
+
+  .cskWonThe {
+    font-size: var(--font-size-5xl);
+  }
+
+  .nextMatch {
+    font-size: var(--font-size-5xl);
+  }
+
+  .dcVsKkr {
+    font-size: var(--font-size-5xl);
+  }
+
+  .march24WankhedeContainer {
+    font-size: var(--font-size-lg);
+  }
+
+  .viewMore {
+    font-size: var(--font-size-lg);
+  }
+
+  .frameWrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .achievements {
+    font-size: var(--font-size-11xl);
+  }
+
+  .rcbWonThe {
+    font-size: var(--font-size-5xl);
+  }
+
+  .rcbWonThe1 {
+    font-size: var(--font-size-5xl);
+  }
+
+  .scoreTable {
+    font-size: var(--font-size-5xl);
+  }
+
+  .team {
+    font-size: var(--font-size-5xl);
+  }
+
+  .lost {
+    font-size: var(--font-size-5xl);
+  }
+
+  .points {
+    font-size: var(--font-size-5xl);
+  }
+
+  .rcb {
+    font-size: var(--font-size-5xl);
+  }
+
+  .csk {
+    font-size: var(--font-size-5xl);
+  }
+
+  .div {
+    font-size: var(--font-size-5xl);
+  }
+
+  .dc {
+    font-size: var(--font-size-5xl);
+  }
+
+  .kkr {
+    font-size: var(--font-size-5xl);
+  }
+
+  .rectangleParent2 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cricket {
+    font-size: var(--font-size-32xl);
+  }
+
+  .iplSeasonIs {
+    font-size: var(--font-size-21xl);
+  }
+
+  .cskWonThe {
+    font-size: var(--font-size-13xl);
+  }
+
+  .nextMatch {
+    font-size: var(--font-size-13xl);
+  }
+
+  .dcVsKkr {
+    font-size: var(--font-size-13xl);
+  }
+
+  .march24WankhedeContainer {
+    font-size: var(--font-size-5xl);
+  }
+
+  .frameDiv {
+    flex-wrap: wrap;
+  }
+
+  .viewMore {
+    font-size: var(--font-size-5xl);
+  }
+
+  .frameGroup {
+    min-width: 100%;
+  }
+
+  .achievements {
+    font-size: var(--font-size-21xl);
+  }
+
+  .rcbWonThe {
+    font-size: var(--font-size-13xl);
+  }
+
+  .rcbWonThe1 {
+    font-size: var(--font-size-13xl);
+  }
+
+  .scoreTable {
+    font-size: var(--font-size-13xl);
+  }
+
+  .team {
+    font-size: var(--font-size-13xl);
+  }
+
+  .lost {
+    font-size: var(--font-size-13xl);
+  }
+
+  .points {
+    font-size: var(--font-size-13xl);
+  }
+
+  .teamWon {
+    flex-wrap: wrap;
+  }
+
+  .rcb {
+    font-size: var(--font-size-13xl);
+  }
+
+  .csk {
+    font-size: var(--font-size-13xl);
+  }
+
+  .div {
+    font-size: var(--font-size-13xl);
+  }
+
+  .rCBLabel {
+    flex-wrap: wrap;
+  }
+
+  .dc {
+    font-size: var(--font-size-13xl);
+  }
+
+  .kkr {
+    font-size: var(--font-size-13xl);
+  }
+
+  .frameParent1 {
+    min-width: 100%;
+  }
+
+  .frameParent {
+    gap: 1.722rem 0.833rem;
+  }
+}

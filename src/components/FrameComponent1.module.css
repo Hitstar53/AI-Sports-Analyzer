@@ -1,0 +1,106 @@
+.signUp1 {
+  margin-bottom: -25px;
+  margin: 0;
+  height: 4.833rem;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.signUp {
+  align-self: stretch;
+  height: 3.444rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem 0rem 0rem;
+  box-sizing: border-box;
+}
+.frameChild {
+  width: 2.5rem;
+  height: 0.028rem;
+  position: relative;
+  object-fit: contain;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.signUpParent {
+  height: 4.833rem;
+  width: 14.778rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0rem 0rem var(--padding-5xl-5);
+  box-sizing: border-box;
+}
+.gamesenseai {
+  margin: 0;
+  align-self: stretch;
+  height: 3.111rem;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.gameSenseAi {
+  width: 17.889rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0rem 0rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-family: var(--font-kavivanar);
+}
+.frameParent {
+  position: absolute;
+  top: 12.667rem;
+  left: 11.444rem;
+  width: 56.833rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--secondary-primary-white);
+  font-family: var(--font-jura);
+}
+
+@media screen and (max-width: 750px) {
+  .signUp1 {
+    font-size: var(--font-size-21xl);
+  }
+
+  .gamesenseai {
+    font-size: var(--font-size-21xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .signUp1 {
+    font-size: var(--font-size-11xl);
+  }
+
+  .gamesenseai {
+    font-size: var(--font-size-11xl);
+  }
+}
