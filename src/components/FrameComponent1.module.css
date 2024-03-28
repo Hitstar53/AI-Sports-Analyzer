@@ -13,6 +13,7 @@
   z-index: 1;
 }
 .signUp {
+  margin-left: 3rem;
   align-self: stretch;
   height: 3.444rem;
   display: flex;
@@ -52,6 +53,7 @@
   display: inline-block;
   flex-shrink: 0;
   z-index: 2;
+  left:3rem;
 }
 .gameSenseAi {
   width: 17.889rem;

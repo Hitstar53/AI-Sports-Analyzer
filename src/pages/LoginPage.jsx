@@ -14,7 +14,17 @@ const LoginPage = () => {
         src="/rectangle-41@2x.png"
       />
       <FrameComponent1 signUp="Log In" line7="pending_44:16" />
-      <div className={styles.email}>Email</div>
+      <div className={styles.email}>
+        <TextField
+              className={styles.passwordLabel}
+              placeholder="Email"
+              variant="standard"
+              sx={{
+                "& .MuiInputBase-root": { height: "42px", fontSize: "30px" },
+                "& .MuiInputBase-input": { color: "#fff" },
+                width: "473px",
+              }}
+            /></div>
       <section className={styles.frameParent}>
         <div className={styles.forgotPasswordLinkWrapper}>
           <div className={styles.forgotPasswordLink}>
@@ -31,6 +41,7 @@ const LoginPage = () => {
             <b className={styles.dontHaveAnContainer}>
               <span className={styles.dontHaveAn}>Don’t have an account?</span>
               <span className={styles.span}>{` `}</span>
+              <br></br>
               <span className={styles.signUp}>Sign Up</span>
             </b>
           </div>

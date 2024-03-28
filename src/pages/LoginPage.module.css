@@ -1,7 +1,7 @@
 .loginPageChild {
   position: absolute;
   top: 0rem;
-  left: 0rem;
+  left: 17rem;
   background: conic-gradient(
     from 180deg at 50% 50%,
     #120724 0deg,
@@ -14,7 +14,7 @@
 .loginPageItem {
   position: absolute;
   top: 24.556rem;
-  left: 11.444rem;
+  left: 17rem;
   border-top: 2px solid var(--secondary-primary-white);
   box-sizing: border-box;
   width: 25.278rem;
@@ -24,7 +24,7 @@
 .loginPageInner {
   position: absolute;
   top: 11.5rem;
-  left: 41.389rem;
+  left: 45rem;
   width: 10.111rem;
   height: 9.222rem;
   object-fit: cover;
@@ -33,7 +33,7 @@
 .email {
   position: absolute;
   top: 22.333rem;
-  left: 11.444rem;
+  left: 17rem;
   display: inline-block;
   width: 12.778rem;
   height: 1.944rem;
@@ -101,7 +101,7 @@
 .frameParent {
   position: absolute;
   top: 24.556rem;
-  left: 11.444rem;
+  left: 17rem;
   width: 60.333rem;
   display: flex;
   flex-direction: row;
