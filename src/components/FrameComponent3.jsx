@@ -58,7 +58,6 @@ const FrameComponent3 = () => {
           </div>
           <div className={styles.rcbWonTheWpl2024Parent}>
             <div className={styles.rcbWonThe}>RCB won the WPL 2024</div>
-            <div className={styles.rcbWonThe1}>RCB won the WPL 2024</div>
           </div>
         </div>
         <div className={styles.frameWrapper1}>
