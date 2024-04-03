@@ -84,7 +84,7 @@
   gap: var(--gap-56xl);
   max-width: 100%;
   text-align: left;
-  font-size: var(--font-size-13xl);
+  font-size: var(--font-size-7xl);
   color: var(--secondary-primary-white);
   font-family: var(--font-jura);
 }
