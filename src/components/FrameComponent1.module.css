@@ -4,14 +4,14 @@
   height: 4.833rem;
   flex: 1;
   position: relative;
-  font-size: inherit;
+  /* font-size: inherit; */
   font-weight: 700;
   font-family: inherit;
   display: inline-block;
   flex-shrink: 0;
-  debug_commit: f6aba90;
   z-index: 1;
 }
+
 .signUp {
   margin-left: 3rem;
   align-self: stretch;
@@ -23,15 +23,16 @@
   padding: 0rem 0rem 0rem;
   box-sizing: border-box;
 }
+
 .frameChild {
   width: 2.5rem;
   height: 0.028rem;
   position: relative;
   object-fit: contain;
   flex-shrink: 0;
-  debug_commit: f6aba90;
   z-index: 1;
 }
+
 .signUpParent {
   height: 4.833rem;
   width: 14.778rem;
@@ -42,19 +43,21 @@
   padding: 0rem 0rem var(--padding-5xl-5);
   box-sizing: border-box;
 }
+
 .gamesenseai {
   margin: 0;
   align-self: stretch;
   height: 3.111rem;
   position: relative;
-  font-size: inherit;
+  /* font-size: inherit; */
   font-weight: 400;
   font-family: inherit;
   display: inline-block;
   flex-shrink: 0;
   z-index: 2;
-  left:3rem;
+  left: 3rem;
 }
+
 .gameSenseAi {
   width: 17.889rem;
   display: flex;
@@ -66,6 +69,7 @@
   max-width: 100%;
   font-family: var(--font-kavivanar);
 }
+
 .frameParent {
   position: absolute;
   top: 12.667rem;
@@ -92,11 +96,13 @@
     font-size: var(--font-size-21xl);
   }
 }
+
 @media screen and (max-width: 675px) {
   .frameParent {
     flex-wrap: wrap;
   }
 }
+
 @media screen and (max-width: 450px) {
   .signUp1 {
     font-size: var(--font-size-11xl);

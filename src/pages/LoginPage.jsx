@@ -16,15 +16,16 @@ const LoginPage = () => {
       <FrameComponent1 signUp="Log In" line7="pending_44:16" />
       <div className={styles.email}>
         <TextField
-              className={styles.passwordLabel}
-              placeholder="Email"
-              variant="standard"
-              sx={{
-                "& .MuiInputBase-root": { height: "42px", fontSize: "30px" },
-                "& .MuiInputBase-input": { color: "#fff" },
-                width: "473px",
-              }}
-            /></div>
+          className={styles.passwordLabel}
+          placeholder="Email"
+          variant="standard"
+          sx={{
+            "& .MuiInputBase-root": { height: "42px", fontSize: "30px" },
+            "& .MuiInputBase-input": { color: "#fff" },
+            width: "473px",
+          }}
+        />
+      </div>
       <section className={styles.frameParent}>
         <div className={styles.forgotPasswordLinkWrapper}>
           <div className={styles.forgotPasswordLink}>
