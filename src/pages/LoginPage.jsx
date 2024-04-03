@@ -6,7 +6,7 @@ const LoginPage = () => {
   return (
     <div className={styles.loginPage}>
       <div className={styles.loginPageChild} />
-      <div className={styles.loginPageItem} />
+      
       <img
         className={styles.loginPageInner}
         loading="lazy"
@@ -20,7 +20,7 @@ const LoginPage = () => {
           placeholder="Email"
           variant="standard"
           sx={{
-            "& .MuiInputBase-root": { height: "42px", fontSize: "30px" },
+            "& .MuiInputBase-root": { height: "32px", fontSize: "25px" },
             "& .MuiInputBase-input": { color: "#fff" },
             width: "473px",
           }}
@@ -34,7 +34,7 @@ const LoginPage = () => {
               placeholder="Password"
               variant="standard"
               sx={{
-                "& .MuiInputBase-root": { height: "42px", fontSize: "30px" },
+                "& .MuiInputBase-root": { height: "32px", fontSize: "25px" },
                 "& .MuiInputBase-input": { color: "#fff" },
                 width: "473px",
               }}

@@ -1,5 +1,5 @@
 .loginPageChild {
-  position: absolute;
+  position: fixed;
   top: 0rem;
   left: 17rem;
   background: conic-gradient(from 180deg at 50% 50%,
@@ -12,7 +12,7 @@
 
 .loginPageItem {
   position: absolute;
-  top: 24.556rem;
+  top: 15rem;
   left: 17rem;
   border-top: 2px solid var(--secondary-primary-white);
   box-sizing: border-box;
@@ -23,8 +23,8 @@
 
 .loginPageInner {
   position: absolute;
-  top: 11.5rem;
-  left: 45rem;
+  top: 7rem;
+  left: 47rem;
   width: 10.111rem;
   height: 9.222rem;
   object-fit: cover;
@@ -33,21 +33,24 @@
 
 .email {
   position: absolute;
-  top: 22.333rem;
+  top: 17rem;
   left: 17rem;
   display: inline-block;
-  width: 12.778rem;
+  
+  width: 21rem;
   height: 1.944rem;
   z-index: 1;
+  
 }
 
 .passwordLabel {
   border: none;
   background-color: transparent;
-  width: 26.278rem;
   height: 2.333rem;
+  border-bottom: 2px solid var(--secondary-primary-white);
+  width: 21rem;
   font-family: var(--font-jura);
-  font-size: var(--font-size-11xl);
+  font-size: var(--font-size-7xl);
   color: var(--secondary-primary-white);
   max-width: 100%;
 }
@@ -111,7 +114,7 @@
 
 .frameParent {
   position: absolute;
-  top: 24.556rem;
+  top: 20rem;
   left: 17rem;
   width: 60.333rem;
   display: flex;
@@ -122,37 +125,37 @@
   gap: var(--gap-56xl);
   max-width: 100%;
   text-align: left;
-  font-size: var(--font-size-13xl);
+  font-size: var(--font-size-7xl);
   color: var(--secondary-primary-white);
   font-family: var(--font-jura);
 }
 
 .loginPage {
   width: 100%;
-  height: 56.889rem;
-  position: relative;
+  height: 56rem;
+  position: fixed;
   background: conic-gradient(from 180deg at 50% 50%,
       #120724 0deg,
       #640404 360deg);
   overflow: hidden;
   letter-spacing: normal;
   text-align: left;
-  font-size: var(--font-size-11xl);
+  font-size: var(--font-size-lgi);
   color: var(--secondary-primary-white);
   font-family: var(--font-jura);
 }
 
 @media screen and (max-width: 750px) {
   .email {
-    font-size: var(--font-size-5xl);
+    font-size: var(--font-size-lgi);
   }
 
   .dontHaveAnContainer {
-    font-size: var(--font-size-7xl);
+    font-size: var(--font-size-lg);
   }
 
   .welcomeIAmContainer {
-    font-size: var(--font-size-7xl);
+    font-size: var(--font-size-lg);
   }
 }
 

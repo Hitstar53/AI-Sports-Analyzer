@@ -55,7 +55,7 @@
   display: inline-block;
   flex-shrink: 0;
   z-index: 2;
-  left: 3rem;
+  left: 5rem;
 }
 
 .gameSenseAi {
@@ -72,7 +72,7 @@
 
 .frameParent {
   position: absolute;
-  top: 12.667rem;
+  top: 9rem;
   left: 11.444rem;
   width: 56.833rem;
   display: flex;
@@ -82,18 +82,18 @@
   max-width: 100%;
   gap: var(--gap-xl);
   text-align: left;
-  font-size: var(--font-size-31xl);
+  font-size: var(--font-size-21xl);
   color: var(--secondary-primary-white);
   font-family: var(--font-jura);
 }
 
 @media screen and (max-width: 750px) {
   .signUp1 {
-    font-size: var(--font-size-21xl);
+    font-size: var(--font-size-17xl);
   }
 
   .gamesenseai {
-    font-size: var(--font-size-21xl);
+    font-size: var(--font-size-17xl);
   }
 }
 
@@ -105,10 +105,10 @@
 
 @media screen and (max-width: 450px) {
   .signUp1 {
-    font-size: var(--font-size-11xl);
+    font-size: var(--font-size-13xl);
   }
 
   .gamesenseai {
-    font-size: var(--font-size-11xl);
+    font-size: var(--font-size-13xl);
   }
 }
