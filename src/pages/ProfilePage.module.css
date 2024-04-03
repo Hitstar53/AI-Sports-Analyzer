@@ -3,8 +3,8 @@
   align-self: stretch;
   height: 3.611rem;
   position: relative;
-  font-size: inherit;
-  font-weight: 400;
+  font-size: 2rem;
+  font-weight: 700;
   font-family: inherit;
   display: inline-block;
   flex-shrink: 0;
@@ -12,7 +12,7 @@
 .helpUsKnow {
   align-self: stretch;
   position: relative;
-  font-size: var(--font-size-21xl);
+  font-size: 1.7rem;
 }
 .welcomeVanshikaParent {
   width: 60.889rem;
@@ -20,26 +20,28 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-sm);
   max-width: 100%;
 }
 .whatIsYour {
   position: absolute;
-  height: calc(100% - 26px);
-  top: 0.722rem;
+  height: 2rem; 
+  top: 1rem;
   left: 1.444rem;
   display: inline-block;
-  width: 26.889rem;
+  width: 26rem;
   z-index: 1;
+  font-size: 1.7rem;
 }
+
+
 .frameChild {
   position: absolute;
   top: 0rem;
   left: 0rem;
   border-radius: var(--br-xl) var(--br-xl) 0px 0px;
   background: linear-gradient(90deg, #120724, #8e1e1e);
-  width: 100%;
-  height: 100%;
+  width: 26rem;
+  height: 4rem;
 }
 .mdiarrowDownDropIcon {
   position: absolute;
@@ -58,11 +60,12 @@
   top: 0rem;
   bottom: 0rem;
   left: 0rem;
-  width: 25.611rem;
+  width: 26rem;
 }
 .whatIsYourAgeParent {
-  align-self: stretch;
-  height: 4.833rem;
+  /* align-self: stretch; */
+  height: 4rem;
+  width: 1rem;
   position: relative;
 }
 .frameItem {
@@ -75,32 +78,44 @@
   max-width: 100%;
 }
 .below8 {
-  width: 18.278rem;
+  width: 10rem;
   position: relative;
   display: inline-block;
   max-width: 100%;
   z-index: 1;
+  font-size: 1.5rem;
+  left: 0.4rem;
 }
 .yrs {
-  width: 13.944rem;
+  width: 10rem;
   position: relative;
   display: inline-block;
+  max-width: 100%;
   z-index: 1;
+  font-size: 1.5rem;
+  left: 0.4rem;
 }
 .yrs1 {
-  width: 13.278rem;
+  width: 10rem;
   position: relative;
   display: inline-block;
+  max-width: 100%;
   z-index: 1;
+  font-size: 1.5rem;
+  left: 0.4rem;
 }
 .above18 {
-  width: 15.222rem;
+  width: 10rem;
   position: relative;
   display: inline-block;
+  max-width: 100%;
   z-index: 1;
+  font-size: 1.5rem;
+  left: 0.4rem;
 }
 .rectangleGroup {
-  width: 25.611rem;
+  width: 26rem;
+  height:10.5rem;
   border-radius: 0px 0px var(--br-xl) var(--br-xl);
   background: linear-gradient(180deg, #8e1e1e, #030624);
   display: flex;
@@ -109,8 +124,8 @@
   justify-content: flex-start;
   padding: var(--padding-mini) var(--padding-lgi) var(--padding-xl);
   box-sizing: border-box;
-  gap: 0.537rem;
-  max-width: 100%;
+  gap: 0rem;
+  /* max-width: 100%; */
 }
 .frameDiv {
   align-self: stretch;
@@ -118,20 +133,23 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  max-width: 100%;
+  width: 26rem;
+  /* max-width: 100%; */
+  /* height:10rem */
+
 }
 .frameInner {
-  width: 25.611rem;
-  height: 11.833rem;
+  width: 4rem;
+  height: 5rem;
   position: relative;
-  border-radius: var(--br-xl);
+  /* border-radius: var(--br-xl); */
   background: linear-gradient(180deg, #8e1e1e, #030624);
   display: none;
   max-width: 100%;
 }
 .wouldYouLike {
   align-self: stretch;
-  height: 6.111rem;
+  /* height: 6.111rem; */
   position: relative;
   display: inline-block;
   flex-shrink: 0;
@@ -155,6 +173,7 @@
 .rectangleParent1 {
   width: 6.278rem;
   border-radius: var(--br-3xs);
+  /* top:100rem  ; */
   background-color: var(--secondary-primary-white);
   display: flex;
   flex-direction: row;
@@ -178,6 +197,7 @@
 }
 .frameParent1 {
   align-self: stretch;
+  bottom: 10rem; /* Adjust the bottom value to move it upwards */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -185,8 +205,12 @@
   gap: var(--gap-xl);
   color: var(--color-black);
 }
+
 .rectangleContainer {
-  width: 25.611rem;
+  bottom:rem;
+  font-size: 1.2rem;
+  width: 26rem;
+  height: 8rem;
   border-radius: var(--br-xl);
   background: linear-gradient(180deg, #8e1e1e, #030624);
   display: flex;
@@ -195,9 +219,9 @@
   justify-content: flex-start;
   padding: 1rem var(--padding-4xl) var(--padding-8xl) var(--padding-7xl);
   box-sizing: border-box;
-  gap: var(--gap-3xs);
-  max-width: 100%;
-  font-size: var(--font-size-6xl);
+  /* gap: var(--gap-3xs); */
+  /* max-width: 100%; */
+  /* font-size: var(--font-size-6xl); */
 }
 .frameContainer {
   width: 28.333rem;
@@ -405,9 +429,11 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-16xl);
-  max-width: 100%;
-  font-size: var(--font-size-21xl);
+  /* gap: var(--gap-16xl); */
+  /* max-width: 100%; */
+  width:48rem;
+  height:13rem;
+  font-size: 2rem
 }
 .mditennisIcon {
   width: 6.667rem;
@@ -588,6 +614,7 @@
 }
 .rectangleParent3 {
   flex: 1;
+  /* width: 1100rem; */
   border-radius: var(--br-xl);
   background: linear-gradient(180deg, #8e1e1e, #120724);
   display: flex;
@@ -596,12 +623,12 @@
   justify-content: flex-start;
   padding: var(--padding-sm) var(--padding-9xl) var(--padding-23xl)
     var(--padding-11xl);
-  box-sizing: border-box;
-  gap: 2.806rem;
-  min-width: 30.167rem;
-  max-width: 100%;
+  /* box-sizing: border-box; */
+  gap: 1rem;
+   /* min-width: 30.167rem; */
+  /* max-width: 100%;  */
   z-index: 2;
-  font-size: var(--font-size-11xl);
+  font-size: 2rem;
 }
 .frameGroup {
   align-self: stretch;
@@ -653,13 +680,13 @@
 }
 
 @media screen and (max-width: 750px) {
-  .welcomeVanshika {
+  /* .welcomeVanshika {
     font-size: var(--font-size-21xl);
-  }
+  } */
 
-  .helpUsKnow {
+  /* .helpUsKnow {
     font-size: var(--font-size-13xl);
-  }
+  } */
 
   .whatIsYour {
     font-size: var(--font-size-13xl);
@@ -714,13 +741,13 @@
   }
 }
 @media screen and (max-width: 675px) {
-  .welcomeVanshika {
+  /* .welcomeVanshika {
     font-size: var(--font-size-11xl);
   }
 
   .helpUsKnow {
     font-size: var(--font-size-5xl);
-  }
+  } */
 
   .whatIsYour {
     font-size: var(--font-size-5xl);

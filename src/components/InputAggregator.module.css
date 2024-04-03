@@ -1,5 +1,5 @@
 .inputAggregatorChild {
-  height: 8.444rem;
+  height: 5rem;
   width: 80rem;
   position: relative;
   background: linear-gradient(90deg, #120724, #8e1e1e);
@@ -7,40 +7,49 @@
   max-width: 100%;
 }
 .outputProcessorChild {
-  height: 5.167rem;
-  width: 6.5rem;
+  height: 3.5rem;
   position: relative;
   object-fit: cover;
   z-index: 1;
+  margin-top: 2rem; 
+  display: inline-block;
+  flex-shrink: 0;
 }
+
 .gamesenseai {
   margin: 0;
-  height: 3.111rem;
+  height: 2.25rem;
   position: relative;
-  font-size: inherit;
+  font-size: 1.8rem;
   font-weight: 400;
   font-family: inherit;
   display: inline-block;
   flex-shrink: 0;
   z-index: 1;
 }
+
 .gamesenseaiWrapper {
-  flex: 1;
+  align-self: stretch;
+  width: 4.722rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-lgi) 0rem 0rem;
+  padding: var(--padding-12xs) 0rem 0rem;
+  box-sizing: border-box;
 }
 .outputProcessor {
   align-self: stretch;
-  width: 23.5rem;
+  flex: 1;
+  height: 5rem;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  max-width: 100%;
+  align-items: center; /* Center vertically */
+  justify-content: flex-start; /* Align to the left */
+  line-height: 2.25rem; /* Set line height equal to the height of gamesenseai */
+  padding-bottom: 5rem;
 }
+
 .icbaselineMenuIcon {
   align-self: stretch;
   flex: 1;
@@ -62,11 +71,11 @@
 }
 .inputAggregator {
   align-self: stretch;
-  height: 8.444rem;
+  height: 5.5rem;
   background: linear-gradient(90deg, #120724, #8e1e1e);
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   padding: var(--padding-10xl) var(--padding-16xl) var(--padding-11xl)
     var(--padding-5xs);
