@@ -1,13 +1,19 @@
 .frameChild {
   border: none;
   background-color: transparent;
-  width: 26.278rem;
+  z-index: 1;
+  border: none;
+  background-color: transparent;
   height: 2.333rem;
+  border-bottom: 2px solid var(--secondary-primary-white);
+  width: 21rem;
   font-family: var(--font-jura);
-  font-size: var(--font-size-11xl);
+  font-size: var(--font-size-7xl);
   color: var(--secondary-primary-white);
-  max-width: 100%;
 }
+
+
+
 .confirmPassword {
   width: 17rem;
   position: relative;
@@ -33,8 +39,28 @@
   gap: var(--gap-8xs);
   max-width: 100%;
 }
+.email {
+  position: fixed;
+  top: 17rem;
+  left: 17rem;
+  width: 17rem;
+  display: inline-block;
+}
+
+.passwordlabel{
+  z-index: 1;
+  border: none;
+  background-color: transparent;
+  height: 2.333rem;
+  border-bottom: 2px solid var(--secondary-primary-white);
+  width: 17rem;
+  font-family: var(--font-jura);
+  font-size: var(--font-size-7xl);
+  color: var(--secondary-primary-white);
+}
 .alreadyHaveAn {
   color: var(--color-darkorange);
+  margin-right: 0.5rem;
 }
 .span {
   color: var(--color-orangered);
@@ -45,7 +71,7 @@
 .alreadyHaveAnContainer {
   align-self: stretch;
   position: relative;
-  font-size: var(--font-size-13xl);
+  font-size: var(--font-size-7xl);
   z-index: 1;
 }
 .frameParent {
@@ -57,7 +83,7 @@
   gap: var(--gap-46xl);
   max-width: 100%;
   text-align: left;
-  font-size: var(--font-size-11xl);
+  font-size: var(--font-size-7xl);
   color: var(--secondary-primary-white);
   font-family: var(--font-jura);
 }

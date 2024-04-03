@@ -1,3 +1,4 @@
+import { TextField } from "@mui/material";
 import FrameComponent1 from "../components/FrameComponent1";
 import FrameComponent from "../components/FrameComponent";
 import styles from "./SignUpPage.module.css";
@@ -6,7 +7,7 @@ const SignUpPage = () => {
   return (
     <div className={styles.signupPage}>
       <div className={styles.signupPageChild} />
-      <div className={styles.signUpPage} />
+      
       <img
         className={styles.signupPageItem}
         loading="lazy"
@@ -14,7 +15,7 @@ const SignUpPage = () => {
         src="/rectangle-41@2x.png"
       />
       <FrameComponent1 signUp="Sign Up" line7="pending_56:13" />
-      <div className={styles.email}>Email</div>
+      
       <section className={styles.frameParent}>
         <div className={styles.frameWrapper}>
           <FrameComponent />

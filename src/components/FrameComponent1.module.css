@@ -27,7 +27,7 @@
 .frameChild {
   width: 2.5rem;
   height: 0.028rem;
-  position: relative;
+  position: fixed;
   object-fit: contain;
   flex-shrink: 0;
   z-index: 1;
@@ -71,7 +71,7 @@
 }
 
 .frameParent {
-  position: absolute;
+  position: fixed;
   top: 9rem;
   left: 11.444rem;
   width: 56.833rem;

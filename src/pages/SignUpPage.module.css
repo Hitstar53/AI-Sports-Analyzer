@@ -1,5 +1,5 @@
 .signupPageChild {
-  position: absolute;
+  position: fixed;
   top: 0rem;
   left: 0rem;
   background: conic-gradient(
@@ -12,7 +12,7 @@
   display: none;
 }
 .signUpPage {
-  position: absolute;
+  position: fixed;
   top: 24.556rem;
   left: 11.444rem;
   border-top: 2px solid var(--secondary-primary-white);
@@ -22,22 +22,31 @@
   z-index: 1;
 }
 .signupPageItem {
-  position: absolute;
-  top: 11.5rem;
-  left: 41.389rem;
+  position: fixed;
+  top: 7rem;
+  left: 47rem;
   width: 10.111rem;
   height: 9.222rem;
   object-fit: cover;
   z-index: 1;
 }
 .email {
-  position: absolute;
+  position: fixed;
   top: 22.333rem;
   left: 11.444rem;
   display: inline-block;
-  width: 12.778rem;
-  height: 1.944rem;
+}
+
+.passwordlabel{
   z-index: 1;
+  border: none;
+  background-color: transparent;
+  height: 2.333rem;
+  border-bottom: 2px solid var(--secondary-primary-white);
+  width: 21rem;
+  font-family: var(--font-jura);
+  font-size: var(--font-size-7xl);
+  color: var(--secondary-primary-white);
 }
 .frameWrapper {
   flex: 1;
@@ -63,9 +72,9 @@
   z-index: 1;
 }
 .frameParent {
-  position: absolute;
-  top: 24.556rem;
-  left: 11.444rem;
+  position: fixed;
+  top: 19rem;
+  left: 17rem;
   width: 60.333rem;
   display: flex;
   flex-direction: row;
@@ -82,7 +91,7 @@
 .signupPage {
   width: 100%;
   height: 56.889rem;
-  position: relative;
+  position: fixed;
   background: conic-gradient(
     from 180deg at 50% 50%,
     #120724 0deg,
